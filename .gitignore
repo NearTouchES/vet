@@ -1,0 +1,30 @@
+# === IDEs y herramientas ===
+.idea/
+*.iml
+*.log
+.DS_Store
+
+# === Java / Maven ===
+target/
+*.class
+
+# === Terraform ===
+*.tfvars
+*.lock.hcl
+.terraform/
+iac/data/
+
+# === Node.js / Next.js ===
+node_modules/
+.next/
+.vercel/
+npm-debug.log
+yarn-error.log
+
+# Asegúrate de ignorar package-lock solo si no lo usas como lockfile principal
+package-lock.json
+
+# === Variables de entorno ===
+.env
+.env.local
+.env.*.local
